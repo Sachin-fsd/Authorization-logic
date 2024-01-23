@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
 
-const connection = mongoose.connect("mongodb+srv://sachineducational:sachin@cluster0.mybvg88.mongodb.net/authPractice?retryWrites=true&w=majority");
+const connection = mongoose.connect("mongodb_url_goes_here");
 
 module.exports = {connection};
